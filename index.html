@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ваше онлайн-окно в другие города" />
+    <meta property="og:title" content="Посмотри в окно" />
+    <meta
+      property="og:description"
+      content="Ваше онлайн-окно в другие города"
+    />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="./images/og-logo.png" />
+    <meta property="twitter:card" content="summary_large_image" />
     <title>Посмотри в окно</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
@@ -23,7 +32,7 @@
               <span class="search-form__label-text visually-hidden">Город</span>
               <input
                 type="text"
-                placeholder="Санкт Петербург, например"
+                placeholder="Санкт-Петербург, например"
                 name="city"
                 class="search-form__textfield"
               />
@@ -100,13 +109,18 @@
               <h2 class="content__video-card-title"></h2>
               <p class="content__video-card-description"></p>
             </div>
-            <img src="" alt="" class="content__video-card-thumbnail" />
+            <img
+              src=""
+              alt="Онлайн-трансляция из города"
+              class="content__video-card-thumbnail"
+            />
           </article>
         </a>
       </li>
     </template>
+
     <template class="more-button-template">
-      <li><button class="button more-button">Показать еще</button></li>
+      <li><button class="button more-button">Показать ещё</button></li>
     </template>
 
     <template class="error-template">
@@ -114,6 +128,7 @@
         <h2 class="error__title"></h2>
       </div>
     </template>
+
     <script src="./scripts/script.js"></script>
   </body>
 </html>
